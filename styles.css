@@ -1,0 +1,128 @@
+:root{
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+
+@media(prefers-reduced-motion:
+no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+body{
+    color:black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #634928;
+}
+
+main{
+    margin-left: 23rem;
+    margin-right: 5rem;
+    padding: 1rem;
+}
+
+.navbar{
+    width: 18rem;
+    height: 100vh;
+    position:fixed;
+    background-color: white;
+    flex-direction: column;
+    border-right: 2px solid gray;
+}
+
+.navbar-nav{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 2px solid gray;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+ul > li[class="nav-link2"]{
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    padding-left: 1rem;
+    border-bottom: 2px solid gray;
+}
+
+ul > li[class="nav-link3"]{
+    padding-top: 0.4rem;
+    padding-bottom: 1.3rem;
+    padding-left: 1rem;
+    border-bottom: 2px solid gray;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.h2{
+    text-transform: uppercase;
+    color: black;
+}
+
+p{
+    font-family:sans-serif;
+    color: gray;
+    padding: 0.3rem;
+}
+
+ul > li{
+    font-family:sans-serif;
+    color: gray;
+    padding: 0.7rem;
+}
+
+.example{
+    height: 5rem;
+    width: 60%;
+    background-color: bisque;
+    border-radius: 3rem;
+    position: relative;
+}
+
+span[class="mini-font1"]{
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    display:flex;
+    flex-direction: row;
+    margin-left: 2rem;
+}
+
+/*span[class="mini-font2"]{
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    position: absolute;
+    top :1.8rem;
+    left: 2rem;
+    display: block;
+}*/
+
+#Reference{
+    margin-left: 23rem;
+    margin-right: 5rem;
+    padding: 1rem;
+}
